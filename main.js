@@ -8,7 +8,7 @@ try {
     window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     recognition = new SpeechRecognition();
 } catch (e) {
-    console.error('Seu navegador não suporta a Web Speech API.');
+    console.error('Seu navegador não suporta a UNS Assistent.');
 }
 
 if (recognition) {
